@@ -12,12 +12,12 @@ mlflow.set_experiment('sdsj2018')
 DATA_PATH = '../sdsj_data'
 
 DATASETS = [
-    #("1", "regression"),
-    #("2", "regression"),
-    #("3", "regression"),
-   # ("4", "classification"),
-   # ("5", "classification"),
-   # ("6", "classification"),
+    ("1", "regression"),
+    ("2", "regression"),
+    ("3", "regression"),
+    ("4", "classification"),
+    ("5", "classification"),
+    ("6", "classification"),
     ("7", "classification"),
     ("8", "classification"),
 ]

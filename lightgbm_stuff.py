@@ -5,7 +5,7 @@ def get_default_params(config: Config):
     params = {
         "objective": "regression" if config["mode"][0] == "r" else "binary",
         "metric": "rmse" if config["mode"][0] == "r" else "auc",
-        "learning_rate": 0.1,
+        "learning_rate": 0.01,
         "num_leaves": 200,
         "feature_fraction": 0.70,
         "bagging_fraction": 0.70,

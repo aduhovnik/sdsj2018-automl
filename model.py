@@ -50,6 +50,7 @@ def predict(x: pd.DataFrame, config: Config) -> List:
 def estimate_value(x: pd.DataFrame, y: pd.Series, config: Config, param_name: str, values: list, to_check: dict=None):
     if not to_check:
         params_to_check = get_default_params(config)
+        params_to_check['learning_rate'] = 0.1
     else:
         params_to_check = to_check
 
