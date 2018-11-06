@@ -10,6 +10,6 @@ Public datasets for local validation: [sdsj2018_automl_check_datasets.zip](https
 
 `docker pull sberbank/python`
 
-## This solution based on the following open solutions, thanks a lot @vlarine and @tyz910
+## This solution based on the following open solutions, thanks a lot [@vlarine](https://github.com/vlarine) and [@tyz910](https://github.com/tyz910)
 - [LightGBM Baseline](https://github.com/vlarine/sdsj2018_lightgbm_baseline)
 - [Docker-friendly baseline](https://github.com/tyz910/sdsj2018)
