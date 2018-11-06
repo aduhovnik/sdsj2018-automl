@@ -11,7 +11,7 @@ Public datasets for local validation: [sdsj2018_automl_check_datasets.zip](https
 - [Docker-friendly baseline](https://github.com/tyz910/sdsj2018)
 
 ## Solution description
-- Preprocessing: 
+- Preprocessing
     - Drop constant columns
     - [Categorical encoding](https://www.kaggle.com/ogrellier/python-target-encoding-for-categorical-features)
     - Datetime features to (year, weekday, month, day)
@@ -33,11 +33,11 @@ Public datasets for local validation: [sdsj2018_automl_check_datasets.zip](https
     - GLM (didn't achieve LightGBM results)
     - XGBoost (too slow)
 - H2O AutoML
-- Feature generation:
+- Feature generation
     - Take 10 features with the lowest/highest correlation with target and use their multiplication as new features
     - Use any clustering algorithm, use clusters as new features
     - Time lags and information about holidays
-- Feature selection: (results were too unstable)
+- Feature selection (results were too unstable)
     - Based on features correlations
     - Based on p-values from OLS
     - [Boruta](https://github.com/scikit-learn-contrib/boruta_py) on LightGBM feature importance
