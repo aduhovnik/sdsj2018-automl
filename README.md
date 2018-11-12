@@ -1,4 +1,4 @@
-## [SDSJ 2018](https://sdsj.sberbank.ai/ru/contest): AutoML Contest, TOP 10(TBA) place solution
+## [SDSJ 2018](https://sdsj.sberbank.ai/ru/contest): AutoML Contest, 3rd place solution
 
 Competition github: [sberbank-ai](https://github.com/sberbank-ai/sdsj2018-automl)
 
