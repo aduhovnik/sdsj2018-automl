@@ -1,15 +1,5 @@
 ## [SDSJ 2018](https://sdsj.sberbank.ai/ru/contest): AutoML Contest, 3rd place solution
 
-Competition github: [sberbank-ai](https://github.com/sberbank-ai/sdsj2018-automl)
-
-Public datasets for local validation: [sdsj2018_automl_check_datasets.zip](https://s3.eu-central-1.amazonaws.com/sdsj2018-automl/public/sdsj2018_automl_check_datasets.zip)
-
-#### Docker :whale: 
-`docker pull sberbank/python`
-## This solution based on the following open solutions, thanks a lot [@vlarine](https://github.com/vlarine) and [@tyz910](https://github.com/tyz910)
-- [LightGBM Baseline](https://github.com/vlarine/sdsj2018_lightgbm_baseline)
-- [Docker-friendly baseline](https://github.com/tyz910/sdsj2018)
-
 ## Solution description
 - Preprocessing
     - Drop constant columns
@@ -45,3 +35,14 @@ Public datasets for local validation: [sdsj2018_automl_check_datasets.zip](https
 - Estimate bias of the target for regression task, this gave me some boost on local validation
 - Estimate other LightGBM params like I do for num_leaves and min_child_weight
 - Leakage by [bagxi](https://github.com/bagxi/sdsj2018-leakage) :)
+
+
+Public datasets for local validation: [sdsj2018_automl_check_datasets.zip](https://s3.eu-central-1.amazonaws.com/sdsj2018-automl/public/sdsj2018_automl_check_datasets.zip)
+
+Competition github: [sberbank-ai](https://github.com/sberbank-ai/sdsj2018-automl)
+
+#### Docker :whale: 
+`docker pull sberbank/python`
+## This solution based on the following open solutions, thanks a lot [@vlarine](https://github.com/vlarine) and [@tyz910](https://github.com/tyz910)
+- [LightGBM Baseline](https://github.com/vlarine/sdsj2018_lightgbm_baseline)
+- [Docker-friendly baseline](https://github.com/tyz910/sdsj2018)
